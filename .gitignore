@@ -1,0 +1,46 @@
+# C# ignore rules
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+mono_crash.*
+*.csproj.user
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+
+# Python ignore rules
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg
+*.egg-info
+dist/
+build/
+*.pyc
+
+# JavaScript/Node.js ignore rules
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+build/
+.DS_Store
+
+# General ignore rules
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
